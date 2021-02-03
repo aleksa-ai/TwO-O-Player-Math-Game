@@ -31,6 +31,7 @@
       * Number 2 (Number)
       * Answer (Number)
   * Behaviour: Display Prompt & Validate
+  * Input Helper's
 
 * Game
   * State: Player 1, Player 2, Turn
