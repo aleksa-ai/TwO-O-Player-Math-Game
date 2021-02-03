@@ -29,8 +29,17 @@ class Game
         current_player.reduce_lives
       end
 
+      winner = @player1.is_dead? ? @player2 : (@player2.is_dead? ? @player1 : nil)
+      if winner != nil
+        @input_helper.print("#{winner.name} wins!")
+        @input_helper.print("---AU REVOIR---")
+        break
+      end
+      
+      num += 1
+      
     end
-
+    
   end
 
 end
