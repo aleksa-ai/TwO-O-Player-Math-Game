@@ -20,9 +20,13 @@ class Game
     num = 1
 
     loop do
+
+      current_player = (num == 1 || num % 2 == 1) ? @player1 : @player2
+      @input_helper.print("#{current_player.name}: #{question.ask_question}")
   
       answer = @input.get_input.to_1
-      if correct_answer
+      if !@question.correct_answer(answer)
+        current_player.reduce_lives
       end
 
     end
