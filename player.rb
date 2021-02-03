@@ -7,11 +7,11 @@ class Player
   end
 
   def reduce_lives
-    @lives -=
+    @lives -= 1
   end
 
   def is_dead?
-    @lives > 0 false : true
+    @lives > 0 ? false : true
   end
 
 end
