@@ -26,13 +26,13 @@
       * Decrement Points
       * Getter for score
 
-* Questions
+<!-- * Questions
   * State: Number & Correct Answer
     * Instance variables:
       * Number 1 (Number)
       * Number 2 (Number)
       * Answer (Number)
-  * Behaviour: Display Prompt & Validate
+  * Behaviour: Display Prompt & Validate -->
 
 * Game
   * State: Player 1, Player 2, Turn
