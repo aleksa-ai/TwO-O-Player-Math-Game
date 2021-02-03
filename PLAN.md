@@ -10,7 +10,7 @@
 ## Roles
 
 * Player will take turns answering questions for points.
-* Questions will award point for right answer. There will be a prompt and a correct answer.
+* Questions will determine points for right answer. There will be a prompt and a correct answer.
 * Game will switch between players, ask a question, update points, displays both player scores.
 
 ### States & Behaviour
